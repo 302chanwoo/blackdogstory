@@ -3,17 +3,100 @@
   <head>
     <meta charset="UTF8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover" />
+    <meta name="format-detection" content="telephone=no"/>
+    
+    <meta name="title" content="Black Dog"/>
+    <meta name="keywords" content="Black Dog"/>
+    <meta name='description' content="'Black Dog' is one of picture book projects based on WebGL."/>
+
+    <meta property="og:site_name" content="Black Dog" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Black Dog" />
+    <meta property="og:url" content="https://blackdogstory.com" />
+    <meta property="og:image" content="images/share_facebook.png" />
+    <meta property="og:description" content="'Black Dog' is one of picture book projects based on WebGL." />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Black Dog">
+    <meta name="twitter:site" content="@302chanwoo">
+    <meta name="twitter:url" property="og:url" content="https://blackdogstory.com">
+    <meta name="twitter:title" property="og:title" content="Black Dog">
+    <meta name="twitter:description" property="og:description" content="'Black Dog' is one of picture book projects based on WebGL.">
+    <meta name="twitter:image" property="og:image" content="images/share_facebook.png">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0Y8YVPYXT8"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-0Y8YVPYXT8');
     </script>
-    <title>검은개</title>
-  </head>
+
+    <title>검은 개 | Black Dog</title>
+  <script defer src="js/bundle.vendor.033267df606edde613c2.js"></script><script defer src="js/bundle.main.bfc411454d7c8d9e6da3.js"></script><link href="css/style.2f4fba9c0841b43d0735.css" rel="stylesheet"></head>
   <body>
-    검은개 이야기
+      <header id="header">
+        <h1 class="logo" id="logo">
+          <a href="/">
+            <img src="images/logo_black.png" class="txt txt-black" alt=""/>
+            <img src="images/logo_white.png" class="txt txt-white" alt=""/>
+            <span class="ir-pm">검은 개</span>
+          </a>
+        </h1>
+        <div class="side">
+          <a href="javascript:;" class="btn-about" id="btnAbout">ABOUT</a>
+        </div>
+      </header>
+
+      <div id="container" class="container"></div>
+
+      <div class="indicators" id="indicators"></div>
+
+      <div class="modal" id="modal">
+        <div class="bg" id="modalBg"></div>
+        <div class="card" id="modalCard">
+          <a href="javascript:;" class="btn-close" id="btnCloseModal">
+            <div class="inner">
+              <span class="bar-h"></span>
+              <span class="bar-v"></span>
+            </div>
+          </a>
+          <ul>
+            <li>
+              <span class="job">DESIGNER</span>
+              <span class="name">Suji Choi</span>
+            </li>
+            <li>
+              <span class="job">DEVELOPER</span>
+              <a href="http://302chanwoo.com" target="_blank" class="name">Chanwoo Hwang</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="end" id="end">
+        <div class="card" id="endCard">
+          <ul>
+            <li>
+              <span class="job">DESIGNER</span>
+              <span class="name">Suji Choi</span>
+            </li>
+            <li>
+              <span class="job">DEVELOPER</span>
+              <a href="http://302chanwoo.com" target="_blank" class="name">Chanwoo Hwang</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="load-view" id="loadView">
+        <div class="inner">
+          <div class="card">
+            <p class="title">LOADING...</p>
+            <p class="count" id="loadCount"></p>
+          </div>
+        </div>
+      </div>
   </body>
 </html>
