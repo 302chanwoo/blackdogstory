@@ -1,10 +1,9 @@
 {
   "/main.js": "autojs/bundle.main.bfc411454d7c8d9e6da3.js",
-  "/vendor.css": "autocss/style.2f4fba9c0841b43d0735.css",
-  "/vendor.js": "autojs/bundle.vendor.033267df606edde613c2.js",
+  "/vendor.css": "autocss/style.7442920700d22bd115c2.css",
+  "/vendor.js": "autojs/bundle.vendor.6d7c472f75696cb1edf8.js",
   "/images/small.png": "autoimages/small.png",
   "/images/face_sprite.png": "autoimages/face_sprite.png",
-  "/images/share_facebook.png": "autoimages/share_facebook.png",
   "/images/hug.png": "autoimages/hug.png",
   "/images/meet.png": "autoimages/meet.png",
   "/images/face_2.png": "autoimages/face_2.png",
@@ -40,6 +39,6 @@
   "/images/logo_black.png": "autoimages/logo_black.png",
   "/images/logo_white.png": "autoimages/logo_white.png",
   "/bundle.main.js.map": "autojs/bundle.main.bfc411454d7c8d9e6da3.js.map",
-  "/style.css.map": "autocss/style.2f4fba9c0841b43d0735.css.map",
-  "/bundle.vendor.js.map": "autojs/bundle.vendor.033267df606edde613c2.js.map"
+  "/style.css.map": "autocss/style.7442920700d22bd115c2.css.map",
+  "/bundle.vendor.js.map": "autojs/bundle.vendor.6d7c472f75696cb1edf8.js.map"
 }
